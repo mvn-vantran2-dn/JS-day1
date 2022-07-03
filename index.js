@@ -21,9 +21,9 @@ function sum(x, y) {
       }
   }
   
-   console.log(diff_num(10));
-   console.log(diff_num(19));
-   console.log(diff_num(23));
+//    console.log(diff_num(10));
+//    console.log(diff_num(19));
+//    console.log(diff_num(23));
 
 function masked3 (a){
     var output=[]
