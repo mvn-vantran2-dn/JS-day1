@@ -35,7 +35,7 @@ function masked3 (a){
     }
     return output;
 }
-console.log(masked3('12*'));
+//console.log(masked3('12*'));
 
 
 function masked6 (a){
@@ -48,4 +48,4 @@ function masked6 (a){
     }
     return output;
 }
-console.log(masked6('15*'));
+//console.log(masked6('15*'));
