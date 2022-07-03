@@ -49,3 +49,5 @@ function masked6 (a){
     return output;
 }
 //console.log(masked6('15*'));
+
+
