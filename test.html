@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+    <title>Document</title>
+</head>
+<body>
+    <div class="header">
+        <div class="container">
+            <h1 class="title">JavaScript</h1>
+            <div class="practices">
+                
+                <div>
+                    <h3 >Câu 1: What are the differences between a variable that is: `null`, `undefined`?</h3>
+                    <p>Khi tạo ra một biến mà không gán giá trị thì nó sẽ là undefined. Còn null là một object                       
+                        </p>
+                </div>
+                <div>
+                    <h3>Câu 2:  What is `use strict`? what are the advantages and disadvantages to using it?</h3>
+                    <p>'use strict': Khi một đoạn lệnh được khai báo use strict thì tất cả các dòng code ở
+                        phía dưới dòng khai báo use strict sẽ được quản lý một cách nghiêm ngặt
+                        hơn về cú pháp
+                    </p>
+                    <p>
+                            Advantages: <br>
+                            - Dễ dàng fix bugs <br>
+                            - Dễ bảo trì code, giúp người đọc dễ dàng hiểu được code <br>
+                            Disadvantages: <br>
+                            - Mất đi tính tự do của JS <br>
+                            - Viết code dài dòng hơn <br>
+                            - Strict mode còn một số lỗi chưa được khắc phục <br> 
+                    </p>
+                </div>
+                <div>
+                    <h3>Câu 3:  What are the differences between `==` and `===`? Write an example for each case (if any)?</h3>
+                    <p>Toán tử == kiểm tra tính bằng nhau, còn === kiểm tra cả tính bằng nhau và cả kiểu dữ liệu
+                       <br> console.log(3 == "3"); // true <br> 
+                       console.log(3 === "3"); // false <br> 
+                       <br>                       
+                        </p>
+                </div>
+                <div>
+                    <h3 >Câu 4: Give a list of `Falsy` values in Javascript.</h3>
+                    <p>Bao gồm: undefined, null, NaN, 0, '' </p>
+                </div>
+                <div >
+                    <h3>Câu 5: Give an example for each of the following methods in Javascript</h3>
+                    <p>
+                       let array = [1, 2, 3, 4, 5, 6, 7, 8, 9, 0]; <br>
+                       map: array = array.map((x) => x + 1); output [2, 3, 4, 5, 6, 7, 8, 9, 10, 1] <br>
+                       filter: array = array.filter((x) => x % 2 === 0); output [ 2, 4, 6, 8, 0 ] <br>
+                       reduce: array = array.reduce((a, b) => a + b); output 45 <br>
+                       find: array = array.find((x) => x > 6); output 7 <br>
+                       some: array = array.some((x) => x > 6); output true <br>
+                       <br>                        
+                    </p>
+                </div>
+                
+                </div>
+                <div >
+                    <h3 >Câu 6:Give an example for each of the following methods in Javascript </h3> <br>
+                        
+                      - Give an example for add a new element to an array[] (at the end)<br>
+                      array.push(12); output [1, 2, 3, 4, 5, 6, 7, 8, 9, 0, 12] <br>
+                      - Give an example for add a new element to an array[] (at the beginning)<br>
+                      array.unshift(12); output [12, 1, 2, 3, 4, 5, 6, 7, 8, 9, 0] <br>
+                      - Give an example for removing an element in array[]<br>
+                      array.pop(); output [1, 2, 3, 4, 5, 6, 7, 8, 9] <br>
+                        <br>
+                    
+            
+                </div>
+                <div>
+                    <h2>Playground</h=>
+                    <h3>
+                        1. Write a JavaScript program to compute the sum of the two given integers.
+                         If the two values are same, then returns triple their sum.
+                    </h3>
+                   
+                    <h3>
+                        2. Write a JavaScript program to compute the absolute difference between a specified number and 19. <br>
+                        Returns triple their absolute difference if the specified number is greater than 19.
+                    </h3>
+                    <h3>
+                        3. A masked number is a string that consists of digits and one asterisk (*) that should be 
+                        replaced by exactly one digit.
+                        <br> Given a masked number find all the possible options to replace the asterisk with 
+                         a digit to produce an integer divisible by 3.
+                    </h3>
+                    <h3>
+                        4. A masked number is a string that consists of digits and one asterisk (*) that should be replaced by exactly one digit. <br> Given a masked number find all the possible options to replace the asterisk with a digit to produce an integer divisible by 6.
+                    </h3>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <script src="./script.js"></script>
+</body>
+</html>
