@@ -7,8 +7,8 @@ function sum(x, y) {
       return (x + y);
      }
    }
-  //console.log(sum(10, 20));
-  //console.log(sum(20, 20));
+  console.log(sum(10, 20));
+  console.log(sum(20, 20));
 
 
   function diff_num(n) {
@@ -21,9 +21,9 @@ function sum(x, y) {
       }
   }
   
-//   console.log(diff_num(10));
-//   console.log(diff_num(19));
-//   console.log(diff_num(23));
+   console.log(diff_num(10));
+   console.log(diff_num(19));
+   console.log(diff_num(23));
 
 function masked3 (a){
     var output=[]
@@ -35,7 +35,7 @@ function masked3 (a){
     }
     return output;
 }
-//console.log(masked3('12*'));
+console.log(masked3('12*'));
 
 
 function masked6 (a){
@@ -48,6 +48,6 @@ function masked6 (a){
     }
     return output;
 }
-//console.log(masked6('15*'));
+console.log(masked6('15*'));
 
 
